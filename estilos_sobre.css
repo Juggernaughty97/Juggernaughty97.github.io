@@ -1,0 +1,49 @@
+@import "estilos_default.css";
+
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+h1 + p{
+    text-indent: 0;
+}
+
+#diferenciais,
+#história{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+main{
+    clear: both;
+}
+
+#titulo{
+    background-image: url(./img/sobre-background.jpg);
+    padding: 10px;
+    display: block;
+}
+
+#centro-distribuicao{
+    background-color: #f7f7f7;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#familia-pelho{
+    background-color: #f7f7f7;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 15px;
+    float: right;
+    margin: 0 0 10px 10px;
+    font-style: italic;
+    text-align: center;
+}
+
